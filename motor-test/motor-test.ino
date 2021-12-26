@@ -75,6 +75,8 @@ void loop() {
     //speed = 0;
    // analogWrite(PWM_MOTOR, speed);
   }
+  // Едем со скоростью speed
+  analogWrite(PWM_MOTOR, speed);
 }
 
 void upd_encoder() {
